@@ -2247,6 +2247,7 @@ ol {
 
 .carousel-wrapper {
   aspect-ratio: 21/9;
+  height: 70vh;
 }
 
 .carousel-wrapper-video {
