@@ -1,0 +1,47 @@
+
+.epgd-section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.benefits-list, .course-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits-list li, .course-list li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.benefits-list li::before, .course-list li::before {
+    content: "•";
+    color: #3498db;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    text-decoration: underline;
+}
