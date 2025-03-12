@@ -26,7 +26,7 @@
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
-    --bs-light: #fff;
+    --bs-light: #f8f9fa;
     --bs-dark: #212529;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -2135,7 +2135,7 @@ progress {
 }
 
 .table-light {
-    --bs-table-bg: #fff;
+    --bs-table-bg: #f8f9fa;
     --bs-table-striped-bg: #ecedee;
     --bs-table-striped-color: #000;
     --bs-table-active-bg: #dfe0e1;
@@ -3382,8 +3382,8 @@ fieldset:disabled .btn {
 
 .btn-light {
     color: #000;
-    background-color: #fff;
-    border-color: #fff
+    background-color: #f8f9fa;
+    border-color: #f8f9fa
 }
 
 .btn-light:hover {
@@ -3421,8 +3421,8 @@ fieldset:disabled .btn {
 .btn-light.disabled,
 .btn-light:disabled {
     color: #000;
-    background-color: #fff;
-    border-color: #fff
+    background-color: #f8f9fa;
+    border-color: #f8f9fa
 }
 
 .btn-dark {
@@ -3711,14 +3711,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-light {
-    color: #fff;
-    border-color: #fff
+    color: #f8f9fa;
+    border-color: #f8f9fa
 }
 
 .btn-outline-light:hover {
     color: #000;
-    background-color: #fff;
-    border-color: #fff
+    background-color: #f8f9fa;
+    border-color: #f8f9fa
 }
 
 .btn-check:focus+.btn-outline-light,
@@ -3732,8 +3732,8 @@ fieldset:disabled .btn {
 .btn-outline-light.dropdown-toggle.show,
 .btn-outline-light:active {
     color: #000;
-    background-color: #fff;
-    border-color: #fff
+    background-color: #f8f9fa;
+    border-color: #f8f9fa
 }
 
 .btn-check:active+.btn-outline-light:focus,
@@ -3746,7 +3746,7 @@ fieldset:disabled .btn {
 
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
-    color: #fff;
+    color: #f8f9fa;
     background-color: transparent
 }
 
@@ -5428,7 +5428,7 @@ fieldset:disabled .btn {
     z-index: 1;
     color: #495057;
     text-decoration: none;
-    background-color: #fff
+    background-color: #f8f9fa
 }
 
 .list-group-item-action:active {
@@ -6866,7 +6866,7 @@ fieldset:disabled .btn {
 }
 
 .link-light {
-    color: #fff
+    color: #f8f9fa
 }
 
 .link-light:focus,
@@ -7269,7 +7269,7 @@ fieldset:disabled .btn {
 }
 
 .border-light {
-    border-color: #fff !important
+    border-color: #f8f9fa !important
 }
 
 .border-dark {
@@ -8055,7 +8055,7 @@ fieldset:disabled .btn {
 }
 
 .text-light {
-    color: #fff !important
+    color: #f8f9fa !important
 }
 
 .text-dark {
@@ -8103,7 +8103,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #fff !important
+    background-color: #0d6efd !important
 }
 
 .bg-secondary {
@@ -8127,7 +8127,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #fff !important
+    background-color: #f8f9fa !important
 }
 
 .bg-dark {
