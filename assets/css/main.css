@@ -2245,6 +2245,42 @@ ol {
   left: 53%;
 }
 
+.carousel-wrapper {
+  aspect-ratio: 21/9;
+  height: 70vh;
+}
+
+.carousel-wrapper-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-wrapper-image {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel-wrapper-video {
+  pointer-events: none;
+}
+
+.carousel-wrapper-video::-webkit-media-controls,
+.carousel-wrapper-video::-moz-media-controls,
+.carousel-wrapper-video::-ms-media-controls,
+.carousel-wrapper-video::-o-media-controls,
+.carousel-wrapper-video::media-controls {
+  display: none !important;
+}
+
+
 /*======================================
 	Services CSS
 ========================================*/
